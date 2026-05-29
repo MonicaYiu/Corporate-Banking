@@ -1,0 +1,10 @@
+[
+  {
+    "id": "CUSTOM_01",
+    "name": "示例自定义规则：贷款期限合规",
+    "description": "申请期限不得超过产品最长期限（BizGrow/BizAssist 5年，BizProp 25年）",
+    "fields": ["loan_tenor", "product_max_tenor"],
+    "applies_to": ["BizGrow", "BizAssist", "BizProp", "BizPropPlus"],
+    "severity": "high"
+  }
+]
